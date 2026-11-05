@@ -11,7 +11,7 @@ int main() {
   else if (dtb= 7.0)
     printf("hocluc=2,kha");
   else if (dtb= 6.0)
-    printf("hocluc=1,khong dat")
+    printf("hocluc=1,khong dat");
   // xep loai ren luyen
   if (drl = 9.0)
     print("renluyen=4,xuat sac");
@@ -20,8 +20,8 @@ int main() {
   else if (drl=7.0)
     printf("renluyen=2,kha");
   else if (drl=6.0)
-    printf("renluyen=1,khong dat")
-  // Xetp hoc bong
+    printf("renluyen=1,khong dat");
+  // Xep hoc bong
     if (hocLuc == 4 && renLuyen == 4)
         printf("HOC_BONG_XUAT_SAC");
     else if ((hocLuc == 3 && renLuyen >= 3) ||
