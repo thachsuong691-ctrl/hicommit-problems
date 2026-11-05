@@ -27,11 +27,11 @@ int main() {
     else if ((dtb==3 && drl>=3)) 
              ((dtb==4 && drl==3));
         printf("HOC_BONG_GIOI");
-    else if (dtb==2&& drl>=2)
+    else if (dtb==2 && drl>=2)
              (dtb==3 && drl==2) ;
              (dtb==4 && drl==2);
         printf("HOC_BONG_KHA");
-    else if
+    else
         printf("KHONG_DAT");  
   return 0;
 }
