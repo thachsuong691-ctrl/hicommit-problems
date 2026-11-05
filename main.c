@@ -2,7 +2,7 @@
 
 int main() {
   int loai;
-  scanf("%d"&loai);
+  scanf("%d",&loai);
   switch (loai){
     case 1:
       printf("LOAI_XUAT_SAC");
@@ -16,7 +16,7 @@ int main() {
     case 4:
       printf("LOAI_TRUNG_BINH");
       break;
-    defaut;
+    defaut:
       printf("KHONG_XEP_LOAI");
   }
   return 0;
