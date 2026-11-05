@@ -5,10 +5,10 @@ int main() {
   scanf("%f", &dtb);
   scanf("%f", &drl);
   if(dtb>=9.0&&drl>=90)
-    printf("hoc_bong_xuat_sac");
+    printf("HOC_BONG_XUAT_SAC");
   else if((dtb>=8.0 && dtb<9.0 && drl >=80)||
          (dtb>=9.0 && drl>=80 &&drl<90)){
-    printf("hoc_bong_gioi");}
+    printf("HOC_BONG_GIOI");}
   else if((7.0<=dtb && dtb<8.0 &&drl>=70)||
          (8.0<=dtb && dtb <9.0 && 70<=drl && drl <80)||
           (dtb<=9.0 && 70<=drl && drl<80)) {
