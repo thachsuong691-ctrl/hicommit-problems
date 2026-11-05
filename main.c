@@ -22,7 +22,7 @@ int main() {
   else if (drl=6.0)
     printf("renluyen=1,khong dat");
   // Xep hoc bong
-    if (hocluc==4 && renluyen==4)
+    if ((hocluc==4 && renluyen==4))
         printf("HOC_BONG_XUAT_SAC");
     else if ((hocLuc==3 && renLuyen>=3)) 
              ((hocLuc==4 && renLuyen==3));
