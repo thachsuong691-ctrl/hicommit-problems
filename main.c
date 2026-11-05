@@ -22,14 +22,14 @@ int main() {
   else if (drl=6.0)
     printf("renluyen=1,khong dat");
   // Xep hoc bong
-    if ((hocluc==4 && renluyen==4))
+    if (dtb==4 && drl==4)
         printf("HOC_BONG_XUAT_SAC");
-    else if ((hocLuc==3 && renLuyen>=3)) 
-             ((hocLuc==4 && renLuyen==3));
+    else if ((dtb==3 && drl>=3)) 
+             ((dtb==4 && drl==3));
         printf("HOC_BONG_GIOI");
-    else if ((hocLuc==2&& renLuyen>=2)) 
-             (hocLuc==3 && renLuyen==2) ;
-             (hocLuc==4 && renLuyen==2);
+    else if ((dtb==2&& drl>=2)) 
+             (dtb==3 && drl==2) ;
+             (dtb==4 && drl==2);
         printf("HOC_BONG_KHA");
     else
         printf("KHONG_DAT");  
